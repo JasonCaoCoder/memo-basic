@@ -1,7 +1,8 @@
 # memo-basic
 This is a pretty basic memorandum used for practical html, css and vanilla js.
 You can use it to add notes from top to bottom and delete note from top to bottom.
-It just like first in last out in the execution of the codes in stack
+It just like first in last out in the execution of the codes in stack.
+
 Picture 1: Initialization
 
 ![image text](https://github.com/JasonCaoCoder/memo-basic/blob/master/src/memo.png)
