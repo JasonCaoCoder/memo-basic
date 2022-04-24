@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en_us">
+<head>
+    <title>Memorandum</title>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./normalize.css">
+    <link rel="stylesheet" type="text/css" href="./memo.css">
+</head>
+<body>
+    <div class="memoApp">
+        <h2>Memorandum</h2>
+        <p class="itemTile">Event</p>
+        <input class="item"type="text" id="event" name="enter"><br/>
+        <p class="itemTile">Date</p>
+        <input  class="item" type="date" id="date" name="date"><br/>
+        <p class="itemTile">Time</p>
+        <input  class="item" type="time" id="time" name="dateTime"><br>
+        <button class="item addBtn" id="addBtn">Add Event</button><br/>
+        <button class="item deleteBtn" id="deleteBtn">Delete the last Event</button>
+        <div class="list" id="list">
+            <div class="listItem">
+                <div>
+                    <p><span>Event: </span> </p>
+                    <p><span>Date: </span></p>
+                </div>
+            </div>
+            
+        </div> 
+        
+    </div>
+
+    <script type="text/javascript" src="./memo.js"></script>
+</body>
+</html>

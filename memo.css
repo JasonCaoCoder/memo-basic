@@ -1,0 +1,30 @@
+.memoApp{
+    box-sizing: border-box;
+    width: 310px;
+    border: black solid 1px;
+    margin: 10px auto;
+    padding: 15px;
+}
+h2{
+    text-align: center;
+    text-shadow: 2px 2px 20px yellow;
+}
+.itemTile, h2,.listItem span{
+    color: #f00b0b;
+}
+.item{
+    width: 100%;
+}
+#addBtn, #deleteBtn{
+    background-color: black;
+    color: white;
+    border: none;
+    margin: 5px 0px;
+    padding: 10px;
+}
+#deleteBtn{
+    background-color: palevioletred;
+}
+.listItem{
+    border-bottom: 1px solid pink; 
+}
